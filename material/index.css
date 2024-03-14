@@ -212,6 +212,9 @@
     letter-spacing: 2px;
     transition: 0.6s;
   }
+  header .logo:hover{
+    color: blue;
+  }
   header ul {
     position: relative;
     display: flex;
@@ -231,16 +234,28 @@
     color: #fff;
     letter-spacing: 2px;
     font-weight: 500px;
-    transition: 0.6s;
+    transition: 0.3s;
   }
   header .sticky ul li a {
     color: #000;
   }
+.navigation ul li a:hover{
+    color:blue;
+}
   .projects{
     padding:5% 32%;
+    text-decoration: none;
   }
   .projects ol li{
     padding: 1%;
+  }
+  .projects ol li a{
+    text-decoration:none ;
+    color: rgb(137, 235, 235);
+  }
+  .projects ol li a:hover{
+    color:rgba(37, 37, 195, 0.548);
+    text-shadow: 2px;
   }
   .projects p{
     color: #fff;
