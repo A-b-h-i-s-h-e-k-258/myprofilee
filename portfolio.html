@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deepak-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,
+      100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,
+      300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: rgb(10, 3, 41);
+      color: white;
+      font-family: "Poppins", sans-serif;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(28, 28, 106);
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+    nav ul li a:hover {
+      color: rgb(157, 157, 234);
+      font-size: 1.01rem;
+    }
+    main hr {
+      border: 0;
+      background: #7476de;
+      height: 1px;
+      margin: 60px 84px;
+    }
+    .left {
+      font-size: 1.5rem;
+    }
+    .firstsection {
+      display: flex;
+      justify-content: space-around;
+      margin: 110px 0;
+    }
+    .firstsection > div {
+      width: 30%;
+    }
+    .leftsection {
+      font-size: 2rem;
+      margin: 70px 0;
+    }
+    .rightsection {
+      width: 80%;
+    }
+    .leftsection1{
+        width: 80%;
+        padding: 100px;
+    }
+    .purple {
+      color: rgb(162, 87, 233);
+    }
+    .textgray {
+      color: gray;
+    }
+    #element {
+      color: rgb(162, 87, 233);
+    }
+    .secondsection {
+      max-width: 80vw;
+      margin: auto;
+      height: 80vh;
+    }
+    .secondsection h1 {
+      font-size: 1.9rem;
+    }
+    .box {
+      background: white;
+      width: 80vw;
+      height: 2px;
+      margin: 56px 0;
+      display: flex;
+    }
+    .vertical {
+      height: 93px;
+      width: 0.5px;
+      background-color: white;
+      margin: 0 120px;
+    }
+    .image-top {
+      width: 23px;
+      position: relative;
+      top: -32px;
+      left: -9px;
+    }
+    .vertical-title {
+      position: relative;
+      top: 75px;
+      width: 150px;
+    }
+    .vertical-desc {
+      position: relative;
+      top: 75px;
+      width: 150px;
+      color: gray;
+      font-size: 12px;
+    }
+    footer {
+      background-color: rgb(14, 18, 55);
+      height: 123px;
+    }
+
+    .footer {
+      display: flex;
+      padding: 23px 122px;
+      justify-content: space-evenly;
+    }
+    .footer-second {
+      display: flex;
+      padding: 23px 122px;
+      justify-content: space-evenly;
+    }
+    .footer ul {
+      list-style: none;
+    }
+    .footer > div {
+      width: 323px;
+    }
+    .footers-right {
+      text-align: center;
+      color: gray;
+      padding: 12px;
+    }
+    .about{
+        display: flex;
+        flex-direction: row;
+    }
+    .about-img img{
+    height:500px;
+    width:450px;
+    margin-left: 20px;
+    border-radius:50%;
+    border:7px solid  #3145b5;
+}
+.about-img{
+    padding-top: 50px;
+    margin-top:0;
+    margin-bottom:130px; 
+}
+.about-text{
+    /* margin-bottom: 80rem; */
+    padding-left: 120px;
+    padding-top:50px;
+    display: inline-block;
+
+}
+.about-text h2{
+    font-size: 60px;
+}
+.about-text h2 span{
+    color: #0ef;
+
+}
+.about-text h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    /* line-height: 1.7; */
+    margin: 15px 0 30px;
+}
+.about-text p{
+    padding-bottom: 50px;
+    color: aliceblue;
+    font-size: 20px;
+    /* line-height: 1.4;
+    margin-bottom:4rem; */
+}
+.project{
+height: 100%;
+width: 100%;
+    background-color: aquamarine;
+
+}
+.p{
+    align-items: center;
+    justify-content: center;
+    margin-left: 272px;
+}
+
+  </style>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Deepak's portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi,My name is <span class="purple">Deepak</span>
+          <div>and I am a Passionate</div>
+
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="logo.png" width="300px" height="300px" alt="logo" />
+        </div>
+      </section>
+      <hr />
+    
+      <div class="about" id="about">
+        <div class="about-img">
+            <img src="Aboutphoto.png.jpg">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Full Stack Developer!</h4>
+            <p>"Welcome to my digital space! I am a passionate and dedicated B.Tech 
+              student at IIIT Allahabad, where I am immersed in the dynamic world of
+              technology and innovation. My educational journey began at SVP Shivpuri,
+              where I cultivated a strong foundation and a thirst for knowledge. As a tech
+              enthusiast, I constantly seek opportunities to explore and create in the ever-evolving
+              landscape of computer science. This website serves as a window into my academic and
+              personal pursuits, showcasing my projects, skills, and experiences. Join me on this 
+              journey as I strive for excellence and contribute to the exciting realm of technology."
+            </p>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </div>
+      <section class="secondsection">
+        <span class="textgray"> <h1>What I have done so far </h1></span>
+        
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">Education </div>
+            <div class="vertical-desc">
+              "Driven by a relentless pursuit of academic excellence, 
+              I proudly achieved a remarkable 97% in my Class 10 and
+              an outstanding 96% in Class 12. These achievements
+              reflect my unwavering commitment to learning and a 
+              strong work ethic. Throughout my educational journey,
+              I embraced challenges with enthusiasm, consistently
+              seeking to expand my knowledge and excel in every endeavor.
+              These high academic accomplishments are a testament to 
+              my dedication and perseverance. I carry with 
+              me a solid foundation and a passion for achieving 
+              excellence in all aspects of life."
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">Achivments and Hobbies</div>
+            <div class="vertical-desc">  I am skilled handball player, proud of securing 
+              a silver medal in the state-level championship. Beyond the thrill of the 
+              handball court, I find joy in the strategic moves of football, exploring 
+              worlds through the pages of books, and immersing myself in the captivating
+              realms of science fiction movies. When I'm not scoring goals or diving 
+              into alternate realities, you'll likely find me in the kitchen, experimenting
+              with flavors and enjoying the art of cooking. This website is a 
+              snapshot of my academic journey, athletic accomplishments, and the 
+              diverse passions that fuel my curiosity.</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">HTML Developer</div>
+            <div class="vertical-desc">
+                 Hello, I'm a skilled developer proficient in HTML, CSS, 
+              JavaScript, C, and C++. My journey began with crafting dynamic
+              web experiences and evolved to mastering foundational languages
+              for robust software development. This portfolio showcases my 
+              diverse projects, highlighting a passion for creating seamless 
+              digital experiences. With an eye for design and a commitment to
+              innovation, I bring ideas to life through code. Join me on this 
+              journey as I continue to explore and contribute to the 
+              ever-evolving world of technology."
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">Field of interest</div>
+            <div class="vertical-desc">
+               "Fueled by a passion for coding and web development, 
+              I immerse myself in the dynamic world of creating 
+              digital solutions. Proficient in HTML, CSS, JavaScript,
+              and more, I thrive on transforming ideas into functional 
+              and visually appealing websites. The ever-evolving nature
+              of web development inspires my continuous learning journey 
+              as I stay updated on the latest technologies. I am dedicated
+              to mastering the craft, focusing on user-centric design and 
+              seamless functionality. driven by the belief that coding 
+              is not just a skill but a powerful tool for crafting innovative
+              and impactful online experiences."
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="project">
+        <h1 class="p">MY projects</h1>
+        <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </div>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3></h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-third"></div>
+        <div class="footer-fourth"></div>
+      </div>
+      <div class="footers-right">
+        copyright &#169; deepaksportfolio.com | All rights reserved
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Graphic Designer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
