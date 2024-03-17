@@ -254,7 +254,7 @@
     color: rgb(137, 235, 235);
   }
   .projects ol li a:hover{
-    color:rgba(37, 37, 195, 0.548);
+    color:rgba(195, 37, 37, 0.988);
     text-shadow: 2px;
   }
   .projects p{
