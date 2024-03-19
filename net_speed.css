@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background:linear-gradient(rgb(60, 52, 175),rgb(208, 37, 37));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    padding: 0 2em 1em;
+    border-radius: 1em;
+    font-size: 1.2em;
+    line-height:1.6em;
+    box-shadow: 0 1.6em 2.4em rgb(40,4,67,0.3);
+}
+p{
+    font-weight: 400;
+    color: #747497;
+    font-weight: bold;
+}
+span{
+    font-weight: 400;
+    color:#090931;
+}
+.container img{
+    width:100%;
+}
